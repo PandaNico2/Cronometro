@@ -5,10 +5,11 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('/imgs/fundo.webp');
+    background-image: url('/imgs/fundo.png');
     background-size: cover;
     backdrop-filter: blur(4px);
     font-family: 'Roboto', 'Segoe UI', serif;
+    background-color: black;
 }
 
 div.box_timer {

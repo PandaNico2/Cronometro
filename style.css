@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('/imgs/fundo.webp');
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    font-family: 'Roboto', 'Segoe UI', serif;
+}
+
+div.box_timer {
+    font-family: 'Black Ops One', cursive;
+    font-size: 200px;
+    margin: 0px auto;
+    min-width: 730px;
+    max-width: max-content;
+    border: 10px dashed;
+    padding: 5px 30px;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.274);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+}
+
+div.conteiner {
+    height: 490px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-success,
+.btn-danger, .btn-secondary {
+    background-color: transparent !important;
+    border: 0;
+}
+
+
+
+h1 {
+    margin-top: 20px;
+    color: #ffffff;
+    text-shadow: 3px 1px rgba(0, 0, 0, 0.432);
+    font-family: 'Commissioner', sans-serif;
+}
+
+div.box_buttons {
+    display: flex;
+    position: fixed;
+    right: 0;
+    flex-direction: column;
+}
+
+button.btn-dark {
+    border-radius: 0;
+    background-color: #fd13fd72;
+    border: 0;
+    padding-right: 25px;
+    text-align: left;
+    font-size: 20px;
+}
+
+button.btn-dark:nth-child(1) {
+    border-radius: 8px 0px 0px 0px
+}
+
+button.btn-dark:last-child {
+    border-radius: 0px 0px 0px 8px
+}
+
+.footer-copyright {
+    color: white
+}
+
+.footer-copyright a {
+    color: #fd13fd;
+    text-decoration: none
+}
+
+
+
+/* Estilo de piscar */
+.blink {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        background-color: inherit;
+        background-color: rgba(255, 0, 0, 0.692);
+        color: white;
+    }
+
+    51%,
+    100% {
+        background-color: rgba(255, 0, 0, 0.986);
+        color: white;
+    }
+}
